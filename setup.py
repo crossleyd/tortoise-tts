@@ -25,11 +25,13 @@ setuptools.setup(
         'progressbar',
         'einops',
         'unidecode',
-        'scipy',
         'librosa',
         'transformers==4.31.0',
         'tokenizers==0.13.3',
-        'scipy==1.15.2'
+        'scipy==1.15.2',
+        'torch==2.6.0+cu118',
+        'torchaudio==2.6.0+cu118',
+        'torchvision==0.21.0+cu118'
         # 'deepspeed==0.8.3',
     ],
     classifiers=[
